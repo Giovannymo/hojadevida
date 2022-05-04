@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  margin-bottom: 5px;
+  line-height: 90px;
+  box-shadow: 1px 4px rgb(245, 245, 245);
+}
+
+nav {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  line-height: 35px;
+}
+.header > ul > li {
+  display: inline;
+  text-align: center;
+  margin-right: 20px;
+}
+.header > ul > li > a {
+  text-decoration: none;
+  color: lightslategray;
+}
+article {
+  background-color: rgb(255, 255, 255);
+  width: 70%;
+  height: 500px;
+  text-align: center;
+  line-height: 50px;
+}
+
+article > section {
+  background-color: rgb(228, 228, 228);
+  width: 100%;
+  height: 500px;
+}
+
+.habilidades h1,
+.informacion h1 {
+  background-color: rgb(121, 184, 184);
+  width: 80%;
+  margin-left: 15%;
+  text-align: left;
+  padding-left: 15px;
+}
+
+.habilidades > nav {
+  background-color: aliceblue;
+  width: 80%;
+  margin-left: 15%;
+  padding-bottom: 250px;
+  padding-left: 50px;
+}
+.habilidades > nav > ul {
+  list-style-type: disc;
+  text-align: left;
+}
+
+aside {
+  background-color: rgb(121, 184, 184);
+  width: 30%;
+  height: 500px;
+  text-align: center;
+  padding: 30px;
+}
+aside > p {
+  text-align: start;
+}
+img {
+  width: 80%;
+  margin: 40px 0;
+}
+.informacion {
+  background-color: wheat;
+  width: 80%;
+  margin-left: 15%;
+}
+
+footer {
+  background-color: rgb(141, 141, 141);
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  line-height: 40px;
+}
